@@ -27,13 +27,15 @@ print(device)
 1. **Load your dataset**:
    Load conversation data from a CSV file.
 
-2. **Data Preprocessing**:
+   Link to dataset: `https://huggingface.co/datasets/SantiagoPG/customer_service_chatbot`
+
+3. **Data Preprocessing**:
    Perform text preprocessing such as lowercasing and NaN removal.
 
-3. **Train-Test Split**:
+4. **Train-Test Split**:
    Split the conversation data into training and testing sets.
 
-4. **Tokenization**:
+5. **Tokenization**:
    Tokenize the conversations for model training using `AutoTokenizer`.
 
 ## Parsing Conversations
