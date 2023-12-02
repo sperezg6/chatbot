@@ -69,6 +69,27 @@ Save the trained model and demonstrate how to upload it to a Hugging Face reposi
 3. **Interactive Testing**:
    Provide a script for interactive testing of the chatbot.
 
-## Conclusion
+------------------------------------------------------------
+# Telegram Chatbot with AI Response Generation
 
-This project illustrates the end-to-end process of building a conversational AI model using advanced NLP tools and techniques.
+This project showcases a Telegram chatbot that uses a pre-trained conversational AI model from Hugging Face's Transformers library to generate responses. The bot is designed to interact with users by processing their messages and responding with relevant answers.
+
+## Features
+
+- Integration with Telegram Bot API.
+- AI-powered response generation using a pre-trained model.
+- Commands for starting interaction and seeking help.
+
+## Requirements
+
+- Python 3
+- `python-telegram-bot` library
+- `transformers` library
+- `torch` library
+
+## Installation
+
+Install the required Python libraries:
+
+```bash
+pip install python-telegram-bot transformers torch
