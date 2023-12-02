@@ -70,6 +70,8 @@ Save the trained model and demonstrate how to upload it to a Hugging Face reposi
    Provide a script for interactive testing of the chatbot.
 
 ------------------------------------------------------------
+
+```markdown
 # Telegram Chatbot with AI Response Generation
 
 This project showcases a Telegram chatbot that uses a pre-trained conversational AI model from Hugging Face's Transformers library to generate responses. The bot is designed to interact with users by processing their messages and responding with relevant answers.
@@ -93,3 +95,36 @@ Install the required Python libraries:
 
 ```bash
 pip install python-telegram-bot transformers torch
+```
+
+## Usage
+
+1. **Model and Tokenizer Initialization**:
+   Load a pre-trained Seq2Seq model and tokenizer from Hugging Face.
+
+2. **Bot Initialization**:
+   Start the bot and print a message to indicate that the bot is running.
+
+3. **Response Generation Function**:
+   - Ensure the model and tokenizer are on the correct device (GPU or CPU).
+   - Tokenize input text and generate a response using the model.
+   - Decode the generated response to human-readable text.
+
+4. **Telegram Bot Handlers**:
+   - `start_command`: Greets the user when they start interacting with the bot.
+   - `help_command`: Offers help to the user.
+   - `handle_message`: Processes user messages and responds using the AI model.
+   - `error`: Logs errors.
+
+5. **Main Function**:
+   - Sets up the Telegram bot with handlers for different commands and messages.
+   - Starts the bot and keeps it running.
+
+## Configuration
+
+Replace `keys.API_KEY` with your Telegram Bot API key. You can obtain this key from the BotFather on Telegram.
+
+## Running the Bot
+
+Execute the script to start the bot. Interact with the bot on Telegram by sending messages or commands.
+
