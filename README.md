@@ -9,7 +9,6 @@ This project demonstrates the process of building a customer support chatbot usi
 
 First, ensure that you have Python installed. Then, install the required libraries:
 
-```bash
 pip install transformers numpy pandas datasets sklearn torch logging accelerate
 ```
 
@@ -95,7 +94,7 @@ This project showcases a Telegram chatbot that uses a pre-trained conversational
 
 Install the required Python libraries:
 
-```bash
+
 pip install python-telegram-bot transformers torch
 ```
 
