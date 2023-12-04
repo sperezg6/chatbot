@@ -1,5 +1,5 @@
 # Customer Service Chatbot
-
+This project demonstrates the process of building a customer support chatbot using Python and the Hugging Face Transformers library. The chatbot is trained on a dataset of conversation logs to understand and respond to customer inquiries.
 ```markdown
 # Customer Support Chatbot
 
